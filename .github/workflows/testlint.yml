@@ -1,0 +1,14 @@
+name: test and lint CI
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: download code
+        run: actions/checkout@v3
+      - name: install dependencies
+        run: npm install
+      - name:
+        run:
+      - name: message
+        run: echo "deploying project..."
